@@ -1,0 +1,67 @@
+/*
+
+================================================>
+CSS BY: NICHOLAS IMPIERI AKA ANONIK
+
+GNU GENERAL PUBLIC LICENSE V3.0
+
+DON'T REMOVE THIS CREDITS FOR FREE USE
+
+================================================>
+
+*/
+
+/*You need to include this in your <head> on HTML*/
+
+.parallax {
+/* The image used */
+background-image: url("images/image1.jpg"); /*Use .jpg image for  a speed loading */
+
+/* Set a specific height */
+min-height: 700px;
+
+/* Create the parallax scrolling effect */
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+
+
+/* Application Example
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Example Page</title>
+
+    <style>
+    .parallax {
+    background-image: url("images/slide1.jpg");
+    min-height: 700px;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    </style>
+
+  </head>
+  <body>
+
+  <h1>Hello </h1> <br>
+
+  <div class="parallax"></div>
+    <div class="container">
+
+      <p>Your Article here </p>
+
+    </div>
+
+  </body>
+</html>
+
+End Example */
